@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Form to create a new resource</title>
+ </head>
+<body>
+  <form action="../com.lrdzero.jersey.todo/rest/todos/insert" method="POST">
+  <br>
+  	<label for="nacionalidad">ID:</label>
+ 	 <input name="id" />
+  </br>
+  <br>
+  	<label for="modelo">Nombre:</label>
+  	<input name="summary" />
+  </br>
+  <br>
+  <label for="url">URL:</label>
+  <input name="description" />
+  <br/>
+	<br><input type="submit" value="Submit" /></br>
+  	
+  </form>
+  <form action="../com.lrdzero.jersey.todo/rest/todos/lista" method="POST">
+   <br>
+  	<label for="buscar">Buscar por id:</label>
+  	<input name="idbusca" />
+  <br/>
+  <input type="submit" value="Listar"/>
+  
+  </form>
+</body>
+</html>
